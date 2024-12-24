@@ -11,6 +11,8 @@ In [this article](https://www.spipm.nl/2030.html) I cover background information
 
 ## Updates
 
+* 24 dec '24: Made repo private, changed the name and made it public again. It just had a ridiculous amount of stars because of the media hype, which didn't feel right. I made this as a quick PoC for a company back in the day, because someone pixelated part of a password for an account with Domain Admin rights. The hype got running by the catchy image and eventually this repo had 26152 stars. If I ever get this much stars again, I want it to be for a project that I'm that hyped about as well.
+![image](images/stars.png)
 * 27 nov '23: Refactored and removed all this pip stuff. I like scripts I can just run. If a package can't be found, just install it. Also added `tool_show_boxes.py` to show how bad the box detector is (you have to really cut out the pixels exactly). Made a TODO to create a version that just cuts out boxes of static size.
 
 ## Installation
