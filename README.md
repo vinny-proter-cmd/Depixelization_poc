@@ -104,11 +104,12 @@ Create more averaging filters that work like some popular editors do.
 
 * Create a new tool that utilizes HMMs
 
-After creating this program, someone pointed me to a [research document](https://www.researchgate.net/publication/305423573_On_the_Ineffectiveness_of_Mosaicing_and_Blurring_as_Tools_for_Document_Redaction) from 2016 where a group of researchers managed to create a similar tool. Their tool has better precision and works across many different fonts.
-While their original source code is not public, an open-source implementation exists at [DepixHMM](https://github.com/JonasSchatz/DepixHMM).
+Still, anyone who is passionate about this type of depixelization is encouraged to implement their own HMM-based version and share it.
+
+### Other sources and tools
+
+After creating this program, someone pointed me to a [research document](https://www.researchgate.net/publication/305423573_On_the_Ineffectiveness_of_Mosaicing_and_Blurring_as_Tools_for_Document_Redaction) from 2016 where a group of researchers managed to create a similar tool. Their tool has better precision and works across many different fonts. While their original source code is not public, an open-source implementation exists at [DepixHMM](https://github.com/JonasSchatz/DepixHMM).
 
 Edit 16 Feb '22: [Dan Petro](https://bishopfox.com/authors/dan-petro) created the tool UnRedacter ([write-up](https://bishopfox.com/blog/unredacter-tool-never-pixelation), [source](https://github.com/BishopFox/unredacter)) to crack a [challenge](https://labs.jumpsec.com/can-depix-deobfuscate-your-data/) that was created as a response to Depix!
-
-Still, anyone who is passionate about this type of depixelization is encouraged to implement their own HMM-based version and share it.
 
 Edit 16 Apr '25: Jeff Geerling created a [challenge](https://www.jeffgeerling.com/blog/2025/its-easier-ever-de-censor-videos) for depixelating pixelated folder content in a moving image. Three people were able to do it. [Here](https://github.com/KoKuToru/de-pixelate_gaV-O6NPWrI) is a repo from KoKuToru showing how to do this with TensorFlow! Amazing!
